@@ -1,0 +1,76 @@
+.login{
+    width: 30%;
+    margin: 12rem auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgb(180,180,180);
+    padding: 2rem;
+}
+.google{
+    width: 60%;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding-bottom: 0.3rem;
+    border-radius: 1rem;
+    margin-bottom: 0.7rem;
+}
+.google:hover{
+    background-color: black;
+    color: white;
+}
+.googleIcon{
+    position: relative;
+    top: 0.3rem;
+}
+.github{
+    width: 60%;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding-bottom: 0.3rem;
+    border-radius: 1rem;
+    margin-bottom: 0.7rem;
+}
+.github:hover{
+    background-color: black;
+    color: white;
+}
+.githubIcon{
+    position: relative;
+    top: 0.3rem;
+}
+.facebook{
+    width: 60%;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding-bottom: 0.3rem;
+    border-radius: 1rem;
+    margin-bottom: 0.7rem;
+}
+.facebook:hover{
+    background-color: black;
+    color: white;
+}
+.facebookIcon{
+    position: relative;
+    top: 0.3rem;
+}
+.star{
+    color: red;
+}
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+    .login{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .login{
+        width: 80%;
+    }
+}
